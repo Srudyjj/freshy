@@ -10,3 +10,136 @@
   font-weight: normal;
   font-style: normal;
   }
+
+
+/* Css reset */
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+/* My styles */
+
+  .navigation{
+    min-height: 100px;
+  }
+
+  .b-logo{
+    display: block;
+    margin: 40px 0 0 55px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0;
+    text-transform: uppercase;
+    cursor: url(../images/cursor.png), pointer;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+    
+  }
+  .white{
+    background-color: white;
+  }
+
+  .b-logo:hover {
+    color: #fff;
+    text-decoration: underline;
+    background-color: transparent;
+  }
+
+  .logo__el:nth-child(1){
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 26px;
+  }
+
+  .logo__el:nth-child(2){
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 26px;
+  }
+
+  .logo__el:nth-child(3){
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 26px;
+  }
+
+  .menu{
+    margin: 25px 50px 0 0;    
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .menu > li > a {
+    color: #ffffff;
+    padding: 15px;
+    margin: 0;
+  }
+
+  .menu li:first-child a{
+    padding-left: 0;
+  }
+
+  .menu li:last-child a{
+    padding-right: 0;
+  }
+
+  .menu > li > a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+    cursor: url(../images/cursor.png), pointer;
+  }
+
+  .menu > li > .tel:visited, .menu > li > .tel:focus{
+    background-color: transparent;
+    color: #ffffff;
+
+  }
+
+  .menu > li > .tel:hover{
+    background-color:#00a1eb;
+    border-radius: 5px;
+
+  }
+  
