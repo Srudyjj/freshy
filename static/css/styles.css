@@ -3,10 +3,10 @@
   font-family: 'Hind', sans-serif; */
   @font-face {
   font-family: 'KozGoPro';
-  src: url('KozGoPro-Regular-AlphaNum.eot?#iefix') format('embedded-opentype'),
-      url('KozGoPro-Regular-AlphaNum.otf')  format('opentype'),
-      url('KozGoPro-Regular-AlphaNum.woff') format('woff'),
-      url('KozGoPro-Regular-AlphaNum.ttf')  format('truetype');
+  src: url('static/fonts/KozGoPro/KozGoPro-Regular-AlphaNum.eot?#iefix') format('embedded-opentype'),
+      url('static/fonts/KozGoPro/KozGoPro-Regular-AlphaNum.otf')  format('opentype'),
+      url('static/fonts/KozGoPro/KozGoPro-Regular-AlphaNum.woff') format('woff'),
+      url('static/fonts/KozGoPro/KozGoPro-Regular-AlphaNum.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
   }
