@@ -10,6 +10,8 @@
   crossorigin="anonymous">
   <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Hind:400,700|Montserrat:200,400,700" rel="stylesheet">
+  <!-- Owl carousel -->
+  <link rel="stylesheet" href="static/css/owl.carousel.min.css">
   <!-- My styles -->
   <link rel="stylesheet" href="static/css/styles.css">
 </head>
@@ -77,7 +79,55 @@
           </div>
         </div>
       </div>
-      <div class="assortment"></div>
+      <div class="b-section assortment container">
+        <h2 class="b-section__headline b-section__headline_center">ASORTYMENT</h2>
+        <p class="b-section__description b-section__description_center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie egestas massa, et sollicitudin urna mattis faucibus.
+        Praesent sagittis laoreet est, et efficitur enim lacinia id. Aenean imperdiet diam nec efficitur commodo. Morbi at purus
+        tempus tellus tempus placerat. Sed faucibus sed elit at lacinia.</p>
+        <div class="owl-carousel">
+          <div><img src="static/images/fish1.jpg" alt="fish1">
+          <div class="product-wrapper">
+            <div class="product-wrapper__name">DORADA ŚWIEŻA</div>
+            <div class="product-wrapper__price">14,99 ZŁ/KG</div>
+            <button class="product-wrapper__order">ZAMÓW</button>
+          </div></div>
+          <div>
+            <img src="static/images/fish2.jpg" alt="fish1">
+            <div class="product-wrapper">
+              <div class="product-wrapper__name">DORADA ŚWIEŻA</div>
+              <div class="product-wrapper__price">14,99 ZŁ/KG</div>
+              <button class="product-wrapper__order">ZAMÓW</button>
+            </div>
+          </div>
+          <div>
+            <img src="static/images/fish3.jpg" alt="fish1">
+            <div class="product-wrapper">
+              <div class="product-wrapper__name">DORADA ŚWIEŻA</div>
+              <div class="product-wrapper__price">14,99 ZŁ/KG</div>
+              <button class="product-wrapper__order">ZAMÓW</button>
+            </div>
+          </div>
+          <div>
+            <img src="static/images/fish1.jpg" alt="fish1">
+            <div class="product-wrapper">
+              <div class="product-wrapper__name">DORADA ŚWIEŻA</div>
+              <div class="product-wrapper__price">14,99 ZŁ/KG</div>
+              <button class="product-wrapper__order">ZAMÓW</button>
+            </div>
+          </div>
+          <div>
+            <img src="static/images/fish2.jpg" alt="fish1">
+            <div class="product-wrapper">
+              <div class="product-wrapper__name">DORADA ŚWIEŻA</div>
+              <div class="product-wrapper__price">14,99 ZŁ/KG</div>
+              <button class="product-wrapper__order">ZAMÓW</button>
+            </div>
+          </div>
+          
+        </div>
+        <a href="#" class="b-section__button  col-xs-12 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-5">ZOBACZ CAŁY<br>ASORTYMENT</a>
+          
+      </div>
       <div class="services"></div>
       <div class="location"></div>
       <footer></footer>
@@ -92,5 +142,40 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
   crossorigin="anonymous"></script>
+  <!-- Owl carousel -->
+  <script src="static/js/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        margin: 30,
+        nav: true,
+        autoplay: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          400: {
+            items: 2,
+            nav: false
+          },
+          600: {
+            items: 3,
+            nav: false
+          },
+          1000: {
+            items: 4,
+            nav: false,
+          },
+          1400: {
+            items: 4,
+            nav: true,
+          }
+        },
+      });
+    
+  </script>
 </body>
 </html>

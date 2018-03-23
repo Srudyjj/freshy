@@ -235,6 +235,7 @@
 
   .b-section__phone:hover {
     color:  #00a1eb;
+    cursor: url(../images/cursor.png), pointer;
   }
   
 
@@ -250,6 +251,7 @@
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 20px;
+    cursor: url(../images/cursor.png), pointer;
   }
 
   .b-section__button:visited {
@@ -284,6 +286,16 @@
     opacity: 0.35;
     z-index: 0;
   }
+
+
+  .b-section__headline_center{
+    text-align: center;
+  }
+
+  .b-section__description_center{
+    text-align: center;
+  }
+
 
 /* Media query */
   @media screen and (max-width: 410px) {
@@ -326,5 +338,78 @@
       }
         
     }
-   
-  
+
+
+    .owl-carousel{
+      margin-bottom: 60px;
+    }
+
+    .left-arrow,.right-arrow{
+      border: none;
+      background-color: transparent;
+      position: absolute;
+      bottom: 50%;
+      transform: translate(-50% 0);
+      cursor: url(../images/cursor.png), pointer;
+    }
+
+    .left-arrow{
+      left: -54px;
+    }
+
+    .right-arrow{
+      right: -54px;
+    }
+
+    .product-wrapper{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      background-color: rgba(0, 0, 255, 0.5);
+      display:flex;
+      flex-direction: column;
+      align-content:center;
+      justify-content: center;
+      text-align: center;
+      cursor: url(../images/cursor.png), pointer;
+
+    }
+
+    .product-wrapper__name{
+      color: #ffffff;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+
+    }
+
+    .product-wrapper__price{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 10px;
+    }
+
+    .product-wrapper__order{
+      align-self: center;
+      padding:12px 18px;
+      background-color: white;
+      color: #00a1eb;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 10px;
+      border-radius: 5px;
+      display:none;
+      cursor: url(../images/cursor.png), pointer;
+    }
+
+    .product-wrapper:hover .product-wrapper__order{
+      display:block;
+      
+    }
