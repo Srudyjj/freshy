@@ -155,11 +155,38 @@
             Praesent sagittis laoreet est, et efficitur enim lacinia id. Aenean imperdiet diam nec efficitur commodo. Morbi at purus
             tempus tellus tempus placerat. Sed faucibus sed elit at lacinia.</p>
         </div>
+        <a href="#" class="b-section__button  col-xs-12 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-5">SPRAWDŹ<br> MOŻLIWOŚCI</a>
       </div>
-      <div class="location"></div>
+      <div class="b-section location">
+        <div class="map col-xs-12 col-md-7 col-md-pull-1">
+            <div class="row">
+              <div class="map-wrapper"></div>
+            
+              <div id="map" class="map-inner"></div>
+            </div>
+              
+        </div>
+        <div class="contacts col-xs-12 col-md-7 col-md-push-6">
+          <div class="contacts-inner">
+            <h2 class="b-section__headline b-section__headline_left">KONTAKT</h2>
+            <p class="b-section__description b-section__description_left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie egestas massa, et sollicitudin urna mattis faucibus.
+              Praesent sagittis laoreet est, et efficitur enim lacinia id. Aenean imperdiet diam nec efficitur commodo. Morbi at purus
+              tempus tellus tempus placerat. Sed faucibus sed elit at lacinia.</p>
+            <button class="pull-right">KONTAKT</button>
+          </div>
+        </div>
+        
+      </div>
+      
+
+     
       <footer></footer>
     </div>
   </div>
+
+
+
+
 
 
 
@@ -203,6 +230,22 @@
         },
       });
     
+  </script>
+
+  <script>
+    function initMap() {
+      var pl = { lat: -25.363, lng: 131.044 };
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 4,
+        center: pl
+      });
+      var marker = new google.maps.Marker({
+        position: pl,
+        map: map
+      });
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByziMhsH5QFBfkpGN92OH73OIYZhW8Krc&callback=initMap">
   </script>
 </body>
 </html>
