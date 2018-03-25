@@ -521,11 +521,19 @@
     display: none;
   }
 
+<<<<<<< HEAD
   .navigation-bottom{
     padding-top: 55px;
   }
 
   .navigation-bottom ul{
+=======
+  .navigation{
+    padding-top: 55px;
+  }
+
+  .navigation ul{
+>>>>>>> 42ea29b04e5efdcd5c7f18e0d0c4c966a4169707
     color: #737373;
     font-family: Montserrat;
     font-size: 22px;
@@ -534,7 +542,11 @@
     margin-bottom: 30px;
   }
 
+<<<<<<< HEAD
   .navigation-bottom ul li a{
+=======
+  .navigation ul li a{
+>>>>>>> 42ea29b04e5efdcd5c7f18e0d0c4c966a4169707
     display: block;
     color: #737373;
     font-family: 'Hind', sans-serif;
@@ -551,11 +563,19 @@
   
   }
 
+<<<<<<< HEAD
   .navigation-bottom ul li:first-child a{
     margin-top: 20px;
   }
 
   .navigation-bottom ul li a span{
+=======
+  .navigation ul li:first-child a{
+    margin-top: 20px;
+  }
+
+  .navigation ul li a span{
+>>>>>>> 42ea29b04e5efdcd5c7f18e0d0c4c966a4169707
     font-weight: 700;
   }
 
