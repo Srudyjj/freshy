@@ -525,12 +525,16 @@
     padding-top: 55px;
   }
 
-  .navigation-bottom ul{
+  .navigation-bottom h3{
     color: #737373;
     font-family: Montserrat;
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
+    
+  }
+
+  .navigation-bottom ul{
     margin-bottom: 30px;
   }
 
